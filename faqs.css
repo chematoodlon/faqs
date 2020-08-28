@@ -386,6 +386,7 @@ z-index:1;
 		margin-top:5vw;
 		padding-bottom:0vw;
 		border-top:solid 0.5vw #000;
+		z-index:10;
 		}
 			#logoBottom{
 			display:block;
@@ -440,8 +441,16 @@ z-index:1;
 				width:6.5vw;
 				filter: grayscale(100%) brightness(0%);
 				}
+#footerBottom{
+display:block;
+width:100vw;
+height:12.5vw;
+background-color:#bababa;
+border-bottom:solid 0.5vw #000;
+}			
 	#creditsLove{
-	display:block;			
+	display:block;	
+	position:relative;		
 	color:#000;
 	font-size:2.5vw;
 	font-weight:300;
@@ -449,15 +458,31 @@ z-index:1;
 	margin-top:0vw;
 	margin-bottom:0vw;
 	padding-left-right:0vw;
-	padding-bottom:9vw;
-	background-color:#bababa;
 	text-align: center;	
-	border-bottom:solid 0.5vw #000;
+	z-index:10;
 	}
 		#loveImg{
 		width:4vw;
 		filter: grayscale(100%) brightness(0%);
-		}	
+		}
+	#footerBg1{
+	display:block;
+	position:absolute;
+	margin-top:-66.5vw;
+	transform:scale(2,2) rotate(180deg) translateX(25vw);
+	z-index:0;
+	filter:grayscale(100) invert(100);
+	opacity:15%;
+	}	
+	#footerBg2{
+	display:block;
+	position:absolute;
+	margin-top:-12vw;
+	transform:scale(2,2);
+	z-index:0;
+	filter:grayscale(100) invert(100);
+	opacity:15%;
+	}	
 
 
 }
