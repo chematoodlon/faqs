@@ -137,6 +137,7 @@ background: center no-repeat rgb(255,229,178);
 opacity:1;
 transition: opacity 2s ease;
 z-index:9999;
+filter:grayscale(100);
 }
 
 	#loaderSVG{			
