@@ -364,12 +364,12 @@ z-index:1;
 	#question5{	
 	}
 		#q5Question{
-		width:75vw;
-		margin-left:-2vw;				
+		width:65vw;
+		margin-left:0vw;				
 		}
 		#q5Answer{
-		margin-left:-2vw;		
-		width:75vw;
+		margin-left:0vw;		
+		width:65vw;
 		}
 	
 	#q6Question, #q6Answer, #q7Question, #q7Answer, #q8Question, #q8Answer{width:85vw;}
