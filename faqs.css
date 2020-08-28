@@ -259,11 +259,11 @@ top:0vw;
 			padding-right:8vw;
 			margin-top:-3vw;
 			margin-right:-20vw;
-			background-color:#7E8983;
+			background-color:#bababa;
 			width:40vw;
 			height:135vw;
 			justify-content: space-evenly;
-			box-shadow: 0 0 1vw 0vw rgba(126,137,131,0.5);
+			box-shadow: 0 0 1vw 0vw rgba(186,187,186,0.5);
 			border:solid 0.25vw #000;
 			font-size:3.556vw;
 			}
@@ -281,7 +281,7 @@ top:0vw;
 					font-family:'Mandala';
 					font-size:5vw;
 					letter-spacing:0.3vw;
-					color:rgb(255,229,178);
+					color:#000;
 					padding-top:1.5vw;
 					padding-bottom:1.5vw;
 					}
@@ -346,20 +346,21 @@ z-index:1;
 		width:67vw;
 		}
 		#q3Answer{
-		margin-left:0vw;		
-		width:57vw;
+		margin-left:3vw;		
+		width:53vw;
 		}
 	#question4{	
 	}
 		#q4Question{
-		margin-left:12vw;			
+		margin-left:0vw;
+		width:75vw;			
 		}
 		#q4Answer{
-		margin-left:5vw;		
+		margin-left:0vw;		
 		width:75vw;
 		}
 	
-	#q6Answer, #q7Question, #q7Answer, #q8Question, #q8Answer{width:85vw;}
+	#q6Question, #q6Answer, #q7Question, #q7Answer, #q8Question, #q8Answer{width:85vw;}
 	
 	#footer{
 		display:block;			
